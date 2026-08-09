@@ -3,7 +3,7 @@
 Парсинг дат різних форматів, побудова когортної таблиці по місяцях,
 сегментація користувачів за промо-ознакою (promo_signup_flag).
 - Файл: cohort_analysis.sql
-- [Переглянути когортну таблицю та висновки в Google Sheets](https://docs.google.com/spreadsheets/d/19Gp3JxAT1G8VjbNMVa4-xqt_d3m1deZW8b-PGGiZHLE/edit?usp=sharing)
+- [Переглянути когортну таблицю та висновки в Google Sheets](https://docs.google.com/spreadsheets/d/1pI7XmqLDWFUAI9USxObMJ52RRygDOwLkzALOVJupbTY/edit?usp=sharing)
 
 ### 2. Stack Overflow Developer Survey — Аналіз ринку праці розробників (Python/Pandas)
 Аналіз глобального опитування розробників. Завантаження великого
