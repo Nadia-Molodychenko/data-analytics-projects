@@ -26,4 +26,5 @@ Python-розробників по країнах (середнє та меді�
 метрики (Healthy Revenue, AOV, Completed Orders), перевірка гіпотез.
 
 - Файл: thelook_queries.sql
+- [View Dashboard]([посилання](https://public.tableau.com/views/TheLookE-Commerce-BusinessOverview/TheLookE-Commerce-BusinessOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 - ![Дашборд](thelook_dashboard.png)
