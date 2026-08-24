@@ -19,13 +19,10 @@ Python-розробників по країнах (середнє та меді�
 та групування по місту посадки.
 - Файл: titanic_analysis.ipynb
 
-### 4. TheLook E-Commerce — Дашборд огляду бізнесу (SQL + Tableau)
+## 4. TheLook E-Commerce — Business Overview Dashboard (SQL + Tableau)
 
-Інтерактивний дашборд на даних BigQuery: виручка, зростання, втрати на 
-скасуваннях/поверненнях ($2.69M, 33.3%). JOIN чотирьох таблиць, узгоджені 
-метрики (Healthy Revenue, AOV, Completed Orders), перевірка гіпотез.
+Interactive Tableau dashboard on BigQuery data: revenue, growth, and revenue at risk from cancellations/returns ($2.69M, 33.3%). JOIN of four tables, consistent metrics (Healthy Revenue, AOV, Completed Orders), hypothesis testing, and data quality checks.
 
-- Файл: thelook_queries.sql
-- File: thelook_queries.sql
+- [Full project description & methodology](thelook_README.md)
 - [View interactive dashboard on Tableau Public](https://public.tableau.com/views/TheLookE-Commerce-BusinessOverview/TheLookE-Commerce-BusinessOverview)
-- ![Дашборд](thelook_dashboard.png)
+- File: thelook_queries.sql
