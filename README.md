@@ -26,3 +26,4 @@ Python-розробників по країнах (середнє та меді�
 метрики (Healthy Revenue, AOV, Completed Orders), перевірка гіпотез.
 
 - Файл: thelook_queries.sql
+- ![Дашборд](thelook_dashboard.png)
