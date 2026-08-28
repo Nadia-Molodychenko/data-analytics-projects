@@ -2,7 +2,7 @@
 
 Hi! I'm Nadia — a junior data analyst. This is where I keep the projects I've built while learning and practicing data analysis.
 
-I work mostly with **SQL (BigQuery), Python (Pandas), and Tableau**, and I like turning messy raw data into something a business can actually use — dashboards, funnels, and clear answers to real questions.
+I work mostly with **SQL (BigQuery), Tableau, and Google Sheets**, and I'm also familiar with Python (Pandas) for data analysis. I like turning messy raw data into something a business can actually use — dashboards, funnels, and clear answers to real questions.
 
 Here's what's inside:
 
