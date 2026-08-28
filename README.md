@@ -1,28 +1,52 @@
-### 1. Оцінка Retention Rate методами когортного аналізу (SQL + Google Sheets)
-Аналіз утримання користувачів за допомогою когортного аналізу.
-Парсинг дат різних форматів, побудова когортної таблиці по місяцях,
-сегментація користувачів за промо-ознакою (promo_signup_flag).
-- Файл: cohort_analysis.sql
-- [Переглянути когортну таблицю та висновки в Google Sheets](https://docs.google.com/spreadsheets/d/1pI7XmqLDWFUAI9USxObMJ52RRygDOwLkzALOVJupbTY/edit?usp=sharing)
+# Data Analytics Projects
 
-### 2. Stack Overflow Developer Survey — Аналіз ринку праці розробників (Python/Pandas)
-Аналіз глобального опитування розробників. Завантаження великого
-датасету, фільтрація та групування даних, аналіз зарплат
-Python-розробників по країнах (середнє та медіана), дослідження
-рівня освіти найбільш оплачуваних спеціалістів.
-- Файл: stackoverflow_survey.ipynb
+Hi! I'm Nadia — a junior data analyst. This is where I keep the projects I've built while learning and practicing data analysis.
 
-### 3. Titanic — Аналіз виживаності пасажирів (Python/Pandas)
-Аналіз даних пасажирів Титаніка. Обробка пропущених значень,
-заповнення віку медіаною, створення вікових категорій через
-власну функцію, аналіз смертності по вікових категоріях
-та групування по місту посадки.
-- Файл: titanic_analysis.ipynb
+I work mostly with **SQL (BigQuery), Python (Pandas), and Tableau**, and I like turning messy raw data into something a business can actually use — dashboards, funnels, and clear answers to real questions.
 
-## 4. TheLook E-Commerce — Business Overview Dashboard (SQL + Tableau)
+Here's what's inside:
 
-Interactive Tableau dashboard on BigQuery data: revenue, growth, and revenue at risk from cancellations/returns ($2.69M, 33.3%). JOIN of four tables, consistent metrics (Healthy Revenue, AOV, Completed Orders), hypothesis testing, and data quality checks.
+---
 
-- [Full project description & methodology](thelook_README.md)
-- [View interactive dashboard on Tableau Public](https://public.tableau.com/views/TheLookE-Commerce-BusinessOverview/TheLookE-Commerce-BusinessOverview)
-- File: thelook_queries.sql
+## 🛍️ TheLook E-Commerce — Business Overview Dashboard
+**SQL + Tableau**
+
+An interactive dashboard for an online store: revenue, growth, and how much money is stuck in cancelled and returned orders (turns out ~33% of revenue is at risk). I joined four tables, built consistent metrics, and kept the numbers honest — for example, showing why AOV is per-order, not per-item.
+
+→ [See the project](./thelook-dashboard) · [Live dashboard](https://public.tableau.com/views/TheLookE-Commerce-BusinessOverview/TheLookE-Commerce-BusinessOverview)
+
+---
+
+## 🔻 E-Commerce Funnel Analysis
+**BigQuery + Tableau**
+
+A conversion funnel built from raw Google Analytics (GA4) data. It follows users from landing on the site all the way to purchase, and shows where they drop off. The surprising part: 79% leave before even viewing a product — so the problem is at the entrance, not the checkout.
+
+→ [See the project](./ecommerce-funnel) · [Live dashboard](https://public.tableau.com/views/EcommerceFunnelDashboard_17848398317130/EcommerceFunnelDashboard)
+
+---
+
+## 📊 Cohort Analysis — User Retention
+**SQL + Google Sheets**
+
+Measuring how many users stick around month after month, and comparing users who came through promos vs organically. The trickiest part was cleaning the dates — they came in all sorts of messy formats, so I had to normalize them before anything else.
+
+→ [See the project](./cohort-retention)
+
+---
+
+## 🐍 Stack Overflow Developer Survey
+**Python + Pandas**
+
+Digging into the big Stack Overflow survey (~49,000 developers) with Pandas: how experienced people are, how many work remotely, how popular Python is (37.5%), and how pay differs by country.
+
+→ [See the project](./stackoverflow-survey)
+
+---
+
+## Let's connect
+
+- LinkedIn: [Nadia Molodychenko](https://www.linkedin.com/in/nadia-molodychenko)
+- Email: lvovanadia73@gmail.com
+
+Thanks for stopping by! 🙂
